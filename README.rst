@@ -3,18 +3,18 @@ Text Sim
 ===============================
 
 
-.. image:: https://img.shields.io/pypi/v/text_sim.svg
-        :target: https://pypi.python.org/pypi/text_sim
+.. image:: https://img.shields.io/pypi/v/textsim.svg
+        :target: https://pypi.python.org/pypi/textsim
 
-.. image:: https://img.shields.io/travis/kvh/text_sim.svg
-        :target: https://travis-ci.org/kvh/text_sim
+.. image:: https://img.shields.io/travis/kvh/textsim.svg
+        :target: https://travis-ci.org/kvh/textsim
 
 .. image:: https://readthedocs.org/projects/text-sim/badge/?version=latest
         :target: https://text-sim.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://pyup.io/repos/github/kvh/text_sim/shield.svg
-     :target: https://pyup.io/repos/github/kvh/text_sim/
+.. image:: https://pyup.io/repos/github/kvh/textsim/shield.svg
+     :target: https://pyup.io/repos/github/kvh/textsim/
      :alt: Updates
 
 

@@ -2,24 +2,24 @@
 # -*- coding: utf-8 -*-
 
 """
-test_text_sim
+test_textsim
 ----------------------------------
 
-Tests for `text_sim` module.
+Tests for `textsim` module.
 """
 
 
 import sys
 import unittest
 
-from text_sim import text_sim
+from textsim import textsim
 
 
 
 class TestTextSim(unittest.TestCase):
 
     def setUp(self):
-        self.sim = text_sim.TextSim(ngrams=2)
+        self.sim = textsim.TextSim(ngrams=2)
         self.corpus = 'abc abc abc def'
         self.sim.fit_model(self.corpus)
 
@@ -39,7 +39,7 @@ class TestTextSim(unittest.TestCase):
 class TestIndexedTextSim(unittest.TestCase):
 
     def setUp(self):
-        self.sim = text_sim.IndexedTextSim(ngrams=2)
+        self.sim = textsim.IndexedTextSim(ngrams=2)
         self.corpus = list(enumerate('abcd abce abc def'.split()))
         self.sim.fit_model(self.corpus)
 

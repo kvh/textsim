@@ -18,23 +18,23 @@ test_requirements = [
 ]
 
 setup(
-    name='text_sim',
+    name='textsim',
     version='0.1.0',
     description="Probabilistic text similarity tools.",
     long_description=readme + '\n\n' + history,
     author="Ken Van Haren",
     author_email='kenvanharen@gmail.com',
-    url='https://github.com/kvh/text_sim',
+    url='https://github.com/kvh/textsim',
     packages=[
-        'text_sim',
+        'textsim',
     ],
-    package_dir={'text_sim':
-                 'text_sim'},
+    package_dir={'textsim':
+                 'textsim'},
     include_package_data=True,
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
-    keywords='text_sim',
+    keywords='textsim',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
